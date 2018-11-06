@@ -27,7 +27,7 @@ openvpn-rancherlocal-server:
   labels:
     io.rancher.sidekicks: openvpn-rancherlocal-data
     io.rancher.container.pull_image: always
-  image: mdns/rancher-openvpn:1.1
+  image: mdns/rancher-openvpn:1.2
   privileged: true
   volumes_from:
   - openvpn-rancherlocal-data

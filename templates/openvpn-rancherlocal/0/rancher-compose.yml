@@ -103,6 +103,18 @@
       default: "foo@example.com"
       type: "string"
       
+    - variable: "PUSHDNS"
+      description: "Optional DNS Server to push to client"
+      label: "DNS to Push"
+      required: false
+      type: string
+
+    - varible: "PUSHSEARCH"
+      description: "Optional DNS Search Domain to push to client"
+      label: "Domain to Push"
+      required: false
+      type: string
+
     - variable: "OPENVPN_EXTRACONF"
       description: "Optional custom OpenVPN config line, for example to push your own custom route"
       label: "OpenVPN custom config:"
