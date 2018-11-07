@@ -107,12 +107,14 @@
       description: "Optional DNS Server to push to client"
       label: "DNS to Push"
       required: false
+      default: "192.168.1.40"
       type: string
 
     - varible: "PUSHSEARCH"
       description: "Optional DNS Search Domain to push to client"
       label: "Domain to Push"
       required: false
+      default: "koepp.local"
       type: string
 
     - variable: "OPENVPN_EXTRACONF"
