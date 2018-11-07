@@ -110,7 +110,7 @@
       default: "192.168.1.40"
       type: "string"
 
-    - varible: "PUSHSEARCH"
+    - variable: "PUSHSEARCH"
       description: "Optional DNS Search Domain to push to client"
       label: "Domain to Push"
       required: false
