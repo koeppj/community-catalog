@@ -24,6 +24,8 @@ openvpn-rancherlocal-server:
     VPNPOOL_NETWORK: ${VPNPOOL_NETWORK}
     VPNPOOL_CIDR: ${VPNPOOL_CIDR}
     OPENVPN_EXTRACONF: ${OPENVPN_EXTRACONF}
+    PUSHDNS: ${PUSHDNS}
+    PUSHSEARCH: ${PUSHSEARCH}
   labels:
     io.rancher.sidekicks: openvpn-rancherlocal-data
     io.rancher.container.pull_image: always
