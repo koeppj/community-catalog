@@ -108,14 +108,14 @@
       label: "DNS to Push"
       required: false
       default: "192.168.1.40"
-      type: string
+      type: "string"
 
     - varible: "PUSHSEARCH"
       description: "Optional DNS Search Domain to push to client"
       label: "Domain to Push"
       required: false
       default: "koepp.local"
-      type: string
+      type: "string"
 
     - variable: "OPENVPN_EXTRACONF"
       description: "Optional custom OpenVPN config line, for example to push your own custom route"
